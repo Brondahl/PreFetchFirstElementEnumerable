@@ -6,8 +6,8 @@
     <Authors>Brondahl</Authors>
     <Description>A wrapper around an existing IEnumerable which immediately pre-fetches the first element of the source.
 This means that any up-front initiation code is executed immediately, rather than when later iterated over, but retains the Lazy streaming nature of the Enumerable for all later elements.</Description>
-    <Version>0.0.1</Version>
-    <PackageVersion>0.0.1</PackageVersion>
+    <Version>0.9.0</Version>
+    <PackageVersion>0.9.0</PackageVersion>
     <Copyright>Copyright Brondahl 2019</Copyright>
     <PackageProjectUrl>https://github.com/Brondahl/PreFetchFirstElementEnumerable</PackageProjectUrl>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
