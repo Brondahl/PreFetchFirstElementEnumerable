@@ -11,6 +11,7 @@ This means that any up-front initiation code is executed immediately, rather tha
     <Copyright>Copyright Brondahl 2019</Copyright>
     <PackageProjectUrl>https://github.com/Brondahl/PreFetchFirstElementEnumerable</PackageProjectUrl>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageOutputPath>../nuget</PackageOutputPath>
     <RepositoryUrl>https://github.com/Brondahl/PreFetchFirstElementEnumerable</RepositoryUrl>
     <PackageTags>Enumerable IEnumerable Prefetch Upfront</PackageTags>
     <LangVersion>7.3</LangVersion>
