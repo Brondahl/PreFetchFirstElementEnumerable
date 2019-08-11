@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreFetchFirstElementEnumerable", "PreFetchFirstElementEnumerable\PreFetchFirstElementEnumerable.csproj", "{B0080D03-6EA6-456E-81D3-AA57D97B20AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PreFetchFirstElementEnumerable", "PreFetchFirstElementEnumerable\PreFetchFirstElementEnumerable.csproj", "{B0080D03-6EA6-456E-81D3-AA57D97B20AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrefetchEnumerableTests", "PrefetchEnumerableTests\PrefetchEnumerableTests.csproj", "{C4418C94-FECB-4228-A41A-7BB90179190F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B0080D03-6EA6-456E-81D3-AA57D97B20AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0080D03-6EA6-456E-81D3-AA57D97B20AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0080D03-6EA6-456E-81D3-AA57D97B20AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4418C94-FECB-4228-A41A-7BB90179190F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4418C94-FECB-4228-A41A-7BB90179190F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4418C94-FECB-4228-A41A-7BB90179190F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4418C94-FECB-4228-A41A-7BB90179190F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

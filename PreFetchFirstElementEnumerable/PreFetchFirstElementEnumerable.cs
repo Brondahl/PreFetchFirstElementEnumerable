@@ -73,15 +73,30 @@ namespace PreFetchFirstElementEnumerable
   /// </summary>
   public class PreFetchFirstElementEnumerable<T> : IEnumerable<T>
   {
-    private readonly IEnumerator<T> _enumerator;
-
-    public PreFetchFirstElementEnumerable(IEnumerable<T> source) : this(source.GetEnumerator()) {}
-    public PreFetchFirstElementEnumerable(IEnumerator<T> sourceEnumerator)
+    private readonly IEnumerable<T> _originalSource;
+    private IEnumerator<T> _prefetchedEnumerator;
+    private bool _resetRequiredForGetEnumerator = false;
+    public PreFetchFirstElementEnumerable(IEnumerable<T> source)
     {
-      _enumerator = new PreFetchFirstElementEnumerator<T>(sourceEnumerator);
+      _originalSource = source;
+      InitiatePrefetch();
     }
 
-    public IEnumerator<T> GetEnumerator() => _enumerator;
+    private void InitiatePrefetch()
+    {
+      _prefetchedEnumerator = new PreFetchFirstElementEnumerator<T>(_originalSource.GetEnumerator());
+    }
+
+    public IEnumerator<T> GetEnumerator()
+    {
+      if (_resetRequiredForGetEnumerator)
+      {
+        InitiatePrefetch();
+      }
+
+      _resetRequiredForGetEnumerator = true;
+      return _prefetchedEnumerator;
+    }
     IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
   }
 
