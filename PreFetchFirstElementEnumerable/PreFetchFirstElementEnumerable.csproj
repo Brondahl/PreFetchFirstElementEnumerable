@@ -13,6 +13,7 @@ This means that any up-front initiation code is executed immediately, rather tha
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageOutputPath>../nuget</PackageOutputPath>
     <RepositoryUrl>https://github.com/Brondahl/PreFetchFirstElementEnumerable</RepositoryUrl>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
     <PackageTags>Enumerable IEnumerable Prefetch Upfront</PackageTags>
     <LangVersion>7.3</LangVersion>
     <PackageReleaseNotes>
