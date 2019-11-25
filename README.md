@@ -1,3 +1,6 @@
+![Travis (.com)](https://img.shields.io/travis/Brondahl/PreFetchFirstElementEnumerable)
+![Nuget](https://img.shields.io/nuget/v/PreFetchFirstElementEnumerable)
+
 PreFetchFirstElementEnumerable
 ================
 
