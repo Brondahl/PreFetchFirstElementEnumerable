@@ -19,7 +19,7 @@ An example practical use-case could be initiating the SQL Query backing an Entit
 Example Usage
 -------------
 
-```
+```csharp
 public void Example(IEnumberable<int> inputEnumerable)
 {
   var prefetchedEnumerable = new PreFetchFirstElementEnumerable<int>(inputEnumerable);
