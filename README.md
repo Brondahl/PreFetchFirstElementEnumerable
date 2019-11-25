@@ -1,5 +1,12 @@
-![Travis (.com)](https://img.shields.io/travis/Brondahl/PreFetchFirstElementEnumerable)
-![Nuget](https://img.shields.io/nuget/v/PreFetchFirstElementEnumerable)
+<a href="https://travis-ci.org/Brondahl/PreFetchFirstElementEnumerable">
+  <img src="https://img.shields.io/travis/Brondahl/PreFetchFirstElementEnumerable" alt="Current TravisCI build status." />
+</a>
+<a href="https://www.nuget.org/packages/PreFetchFirstElementEnumerable/">
+  <img src="https://img.shields.io/nuget/v/PreFetchFirstElementEnumerable" alt="Latest Nuget Release." />
+</a>
+<a href="https://github.com/Brondahl/PreFetchFirstElementEnumerable/blob/master/MIT-LICENSE.txt">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="PreFetchFirstElementEnumerable is released under the MIT license." />
+</a>
 
 PreFetchFirstElementEnumerable
 ================
